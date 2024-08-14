@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Personal Portfolio Website </title>
+    <link rel="stylesheet" href="style.css"> 
+    <script src="https://kit.fontawesome.com/8b1cd3d808.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="images/logo.png" class="logo">
+            <ul>
+                <li><a href="#Home">Home</a></li>
+                <li><a href="#About">About</a></li>
+                <li><a href="#Services">Services</a></li>
+                <li><a href="#Portfolio">Portfolio</a></li>
+                <li><a href="#Contact">Contact</a></li>
+
+            </ul>       
+         </nav>
+         <div class="header-text">
+            <p> Computer Science Graduate | Software Developer</p>
+            <h1> Hi, I'm<span> Shivakumar N </span> <br> From Bangalore Karnataka</h1>
+         </div>
+     </div>
+</div>
+<!--------about -------->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/user.jpeg">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title"> About Me  </h1>
+                <p> I am Shivakumar N, a passionate Computer Science student at Malnad College of Engineering, graduating in 2024. With a solid foundation in software development, machine learning, and web technologies, I am eager to contribute to innovative projects and expand my technical skills. My experience spans creating advanced machine learning algorithms, enhancing web interfaces, and improving system efficiencies through strategic project implementations. Explore my portfolio to learn more about my projects, skills, and experiences.
+
+                </p>
+
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('education')">Education </p>
+                    <p class="tab-links" onclick="opentab('projects')">Projects</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Programming Languages</span><br> Java, Python, C</li>
+                        <li><span>Web Technologies</span><br> HTML, CSS, PHP</li>
+                        <li><span>Database Management</span><br> SQL</li>
+                        <li><span>Relevant Coursework</span><br> Data Structures, Machine Learning, OOP</li>
+                        <li><span>Cloud Platforms</span><br>  AWS, Microsoft Azure</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2020-2024</span><br> Malnad College Of Engineering Hassan</li>
+                        <li><span>2018-2020</span><br> Mandaara PU College Davangere</li>
+                        <li><span>2006-2018</span><br> M.K.E.T. CBSE School Harihar</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="projects">
+                    <ul>
+                        <li><span>Programming Languages</span><br> Java, Python, C</li>
+                        <li><span>Web Technologies</span><br> HTML, CSS, PHP</li>
+                        <li><span>Database Management</span><br> SQL</li>
+                        <li><span>Relevant Coursework</span><br> Data Structures, Machine Learning, OOP</li>
+                        <li><span>Cloud Platforms</span><br>  AWS, Microsoft Azure</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>Programming Languages</span><br> Java, Python, C</li>
+                        <li><span>Web Technologies</span><br> HTML, CSS, PHP</li>
+                        <li><span>Database Management</span><br> SQL</li>
+                        <li><span>Relevant Coursework</span><br> Data Structures, Machine Learning, OOP</li>
+                        <li><span>Cloud Platforms</span><br>  AWS, Microsoft Azure</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--------------- services--------- --->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2> Software Development </h2>
+                <p> I provide custom software development services to create tailored applications that meet your business needs. Using programming languages like Java, Python, and C, I design and develop reliable and efficient software solutions. My services ensure your software is scalable, maintainable, and aligned with best practices in the industry. Whether you need a standalone application or a complex integrated system, I can deliver high-quality software to help your business succeed</p>
+                <a href='#'>Learn more </a>
+            </div>
+            <div>
+                <i class="fa-solid fa-crop"></i>
+                <h2> Machine Learning Solutions  </h2>
+                <p> I offer machine learning solutions to help your business make smarter decisions. Using advanced algorithms and tools like Python, I develop models for tasks such as prediction and data analysis. My services enhance accuracy and efficiency, providing you with powerful insights and automated solutions. Whether you need a recommendation system or data-driven decision-making tools, my machine learning solutions are designed to meet your business needs and drive innovation.</p>
+                <a href='#'>Learn more </a>
+            </div>
+            <div>
+                <i class="fa-solid fa-database"></i>
+                <h2> Database & Cloud Services </h2>
+                <p> I provide comprehensive database and cloud services to support your business operations. I design and manage SQL databases to ensure data integrity and security. Additionally, I implement and maintain cloud solutions on platforms like AWS and Microsoft Azure, ensuring your applications are scalable and reliable. My services help you store, manage, and access your data efficiently, enabling smooth and secure operations</p>
+                <a href='#'>Learn more </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--------------portfolio---->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title"> My Work </h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/work1.png">
+                <div class="layer">
+                    <h3> Diagnosis of Dementia Using Eye Movements</h3>
+                    <p> In my project on diagnosing dementia using eye movements, I developed a non-invasive method to detect dementia through machine learning. Using eye-tracking data, I applied various models, including SVM, Random Forest, and Logistic Regression, with Logistic Regression achieving the highest accuracy. This innovative approach demonstrated the potential for early and accurate dementia detection. Throughout this project, I utilized Python, eye trackers, and advanced data processing techniques, showcasing my skills in machine learning and data analysis to improve healthcare</p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/work2.jpeg">
+                <div class="layer">
+                    <h3> Vehicle Accident Prevention on Mountain Roads.</h3>
+                    <p> The project "Vehicle Accident Prevention on Mountain Roads" aims to improve safety on treacherous mountain roads, known for their steep inclines and sharp turns. By employing advanced technologies such as ultrasonic sensors, LEDs, and a camera module, the system provides real-time data to prevent accidents. Key features include detecting vehicle speed and distance near curves, counting vehicles, and offering visual cues through LED indicators. A user-friendly website was developed to communicate road conditions, supported by real-time data storage via Firebase. The project successfully integrates these components to enhance road safety and offers a reliable solution to reduce accident risks on challenging terrains.</p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/work-3.jpg">
+                <div class="layer">
+                    <h3> Sentiment Analysis-Based Harassment Detection using Machine Learning</h3>
+                    <p> In the project "Sentiment Analysis-Based Harassment Detection using Machine Learning," I developed an automated system to identify online harassment in real-time. The goal was to enhance online safety by leveraging sentiment analysis and supervised learning algorithms. Using techniques like TF-IDF and CounterVectorizer for feature extraction, and Support Vector Machines (SVM) for classification, the system achieved high accuracy with minimal false positives. This project utilized Python, NLTK, scikit-learn, and pandas to create an effective solution for detecting and flagging harassment on social media platforms.</p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--------------contact ---->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title"> Contact Me </h1>
+                <p> <i class="fa-solid fa-envelope"></i> shivugowda1415@gmail.com</p>
+                <p> <i class="fa-solid fa-phone"></i> +91 6364115614</p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/n-shivakumar-72516728a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fa-brands fa-linkedin-in"></i></a>
+                </div>
+                <a href="images/Shivakumar_N Cse.pdf" download class="button"> Download CV </a>
+            </div>
+            <div class="contact-right">
+                <form>
+                    <input type="text" name="Name" placeholder="Your Name " required>
+                    <input type="email" name="email" placeholder="Your Name" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="button"> Submit </button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+</body>
+</html>
